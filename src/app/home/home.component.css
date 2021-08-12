@@ -1,0 +1,12 @@
+.rate{
+  border: 1px solid black;
+  text-align: center;
+}
+.convert{
+  border: 1px solid black;
+  text-align: center;
+}
+.name{
+  margin: 10px;
+  font-weight: bold;
+}

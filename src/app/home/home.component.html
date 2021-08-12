@@ -1,0 +1,23 @@
+<div class="rate">
+  <h2>อัตราแลกเปลี่ยน</h2>
+  <h4>THB: {{posts.rates.THB}}</h4>
+  <h4>USD: {{posts.rates.USD}}</h4>
+</div>
+<br>
+<br>
+
+<div class="convert">
+  <br>
+  <h2>คำนวณอัตราแลกเปลี่ยน</h2>
+  <br>
+  <br>
+  <input [(ngModel)] = "THUserInput" > <span class="name">THB</span>
+  <br>
+  <br>
+  <input [(ngModel)] = "USDUserInput" readonly> <span class="name">USD</span>
+  <br>
+  <br>
+  <button type="button" class="btn btn-primary" (click) = convert()>CONVERT</button>
+  <br>
+  <br>
+</div>
